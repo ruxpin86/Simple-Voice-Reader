@@ -1,15 +1,15 @@
 html {
     font-size: 10px;
-  }
+}
 
-  body {
+body {
     background: #ffc600;
     font-family: 'helvetica neue';
     font-weight: 200;
     font-size: 20px;
-  }
+}
 
-  .words {
+.words {
     max-width: 500px;
     margin: 50px auto;
     background: white;
@@ -20,13 +20,13 @@ html {
     background-size: 100% 3rem;
     position: relative;
     line-height: 3rem;
-  }
-  
-  p {
-    margin: 0 0 3rem;
-  }
+}
 
-  .words:before {
+p {
+    margin: 0 0 3rem;
+}
+
+.words:before {
     content: '';
     position: absolute;
     width: 4px;
@@ -35,4 +35,4 @@ html {
     bottom: 0;
     border: 1px solid;
     border-color: transparent #efe4e4;
-  }
+}
